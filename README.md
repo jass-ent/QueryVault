@@ -1,2 +1,2 @@
-# keepa-query-saver
-JASS Keepa Query Saver Community Edition
+# QueryVault
+JASS Keepa QueryVault Community Edition
