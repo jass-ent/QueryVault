@@ -147,6 +147,11 @@
       position: relative; z-index: 1;
       display: flex; gap: 1rem;
       flex-wrap: wrap; justify-content: center;
+      flex-direction: column; align-items: center;
+    }
+    .hero-store-buttons {
+      display: flex; gap: 1rem;
+      flex-wrap: wrap; justify-content: center;
     }
 
     /* ── BUTTONS ── */
@@ -569,7 +574,8 @@
     <a href="#features">Features</a>
     <a href="#how-it-works">How It Works</a>
     <a href="#pricing">Pricing</a>
-    <a class="nav-cta" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get It Free</a>
+    <a class="nav-cta" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get It Free (Chrome)</a>
+    <a class="nav-cta" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Get It Free (Edge)</a>
   </div>
 </nav>
 
@@ -587,10 +593,16 @@
   <p class="sub">You spend hours crafting the perfect Keepa Product Finder query. One wrong click and it's gone. QueryVault saves every filter, every range, every setting — and brings it back in seconds.</p>
 
   <div class="hero-actions">
-    <a class="btn-primary" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v8M8 12h8"/></svg>
-      Add to Chrome — It's Free
-    </a>
+    <div class="hero-store-buttons">
+      <a class="btn-primary" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v8M8 12h8"/></svg>
+        Add to Chrome — It's Free
+      </a>
+      <a class="btn-primary" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v8M8 12h8"/></svg>
+        Add to Edge — It's Free
+      </a>
+    </div>
     <a class="btn-secondary" href="#how-it-works">See How It Works</a>
   </div>
 
@@ -648,8 +660,9 @@
         <div class="step-number">01</div>
         <div class="step-icon">&#128229;</div>
         <h3><em>Get</em> QueryVault</h3>
-        <p>Install the free Chrome extension. No account, no email, no sign-up. Just click "Add to Chrome" and you're ready.</p>
-        <a class="step-cta" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Install now</a>
+        <p>Install the free browser extension. No account, no email, no sign-up. Just click "Add to Chrome" or "Add to Edge" and you're ready.</p>
+        <a class="step-cta" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Install for Chrome</a>
+        <a class="step-cta" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Install for Edge</a>
       </div>
 
       <div class="journey-step">
@@ -803,7 +816,8 @@
           <li>No account required</li>
           <li>100% local — no data leaves your browser</li>
         </ul>
-        <a class="btn-primary" style="width:100%; justify-content:center;" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get Started</a>
+        <a class="btn-primary" style="width:100%; justify-content:center;" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get Started (Chrome)</a>
+        <a class="btn-primary" style="width:100%; justify-content:center; margin-top:0.5rem;" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Get Started (Edge)</a>
       </div>
 
       <div class="tier-card featured">
@@ -820,7 +834,8 @@
           <li>Register in-app with just name &amp; email</li>
           <li>100% local — registration unlocks features, not data access</li>
         </ul>
-        <a class="btn-primary" style="width:100%; justify-content:center;" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get It Free &amp; Register</a>
+        <a class="btn-primary" style="width:100%; justify-content:center;" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Get It Free &amp; Register (Chrome)</a>
+        <a class="btn-primary" style="width:100%; justify-content:center; margin-top:0.5rem;" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Get It Free &amp; Register (Edge)</a>
       </div>
     </div>
   </div>
@@ -832,7 +847,10 @@
     <div class="cta-banner">
       <h2>Your queries are <em>assets.</em><br/>Start protecting them.</h2>
       <p>Install QueryVault in under 10 seconds. Save your first query in under 5. That's time and money back in your pocket, every single day.</p>
-      <a class="btn-primary" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Add to Chrome — It's Free</a>
+      <div class="hero-store-buttons">
+        <a class="btn-primary" href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Add to Chrome — It's Free</a>
+        <a class="btn-primary" href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Add to Edge — It's Free</a>
+      </div>
     </div>
   </div>
 </section>
@@ -841,6 +859,7 @@
 <footer>
   <div class="footer-links">
     <a href="https://chromewebstore.google.com/detail/jass-keepa-query-saver/bamoopkicdgjcjomhoimhlanonbbmoop" target="_blank">Chrome Web Store</a>
+    <a href="https://microsoftedge.microsoft.com/addons/detail/jass-keepa-queryvault/cdfljlinpcfmeoipnekbpejbhpdllddp" target="_blank">Edge Add-ons</a>
     <a href="https://github.com/jass-ent/keepa-query-saver/issues/new?template=bug_report.md" target="_blank">Report a Bug</a>
     <a href="https://github.com/jass-ent/keepa-query-saver/issues/new?template=feature_request.md" target="_blank">Request a Feature</a>
     <a href="https://github.com/jass-ent/keepa-query-saver/discussions" target="_blank">Discussions</a>
